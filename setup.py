@@ -68,6 +68,8 @@ else:
 long_description = """\
 Overview
 ========
+NOTE THIS IS NOT THE OFFICIAL VERSION, IT IS PATCHED TO ONLY WORK WITH PYTHON 3.
+URL to fork: https://github.com/douglasLundgren/PyDAQmx
 
 This package allows users to use data acquisition hardware from `National 
 Instrument`_ with python. It makes an interface between the NIDAQmx driver 
@@ -152,7 +154,7 @@ A new version of PyDAQmx will is in the dev2 branch on github. PyDAQmx will foll
 """
 
 setup_parameters = dict(version=version,
-      name = "PyDAQmx",
+      name = "PyDAQmx_xylem_patched",
       author_email="pierre.clade@spectro.jussieu.fr",
       maintainer_email="pierre.clade@spectro.jussieu.fr",
       url='http://pythonhosted.org/PyDAQmx/',
@@ -171,7 +173,6 @@ author.''',
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Topic :: Scientific/Engineering',
         'Topic :: Scientific/Engineering :: Physics',
