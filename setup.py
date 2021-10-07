@@ -8,7 +8,7 @@ from setuptools import setup
 from setuptools.command.test import test as TestCommand
 
 ##### WARNING version string should be modified also in the __init__.py
-version = '1.4.4'
+version = '1.4.5'
 
 import os
 directory = os.path.split(os.path.realpath(__file__))[0]
