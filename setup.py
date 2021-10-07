@@ -179,7 +179,6 @@ author.''',
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules'], 
      packages=packages, 
-     use_2to3=True, 
         cmdclass = {'test': Test, 'test_example':TestExample})
 
 auth_name = "Pierre Cladé"
