@@ -154,7 +154,7 @@ A new version of PyDAQmx will is in the dev2 branch on github. PyDAQmx will foll
 """
 
 setup_parameters = dict(version=version,
-      name = "PyDAQmx_xylem_patched",
+      name = "PyDAQmx",
       author_email="pierre.clade@spectro.jussieu.fr",
       maintainer_email="pierre.clade@spectro.jussieu.fr",
       url='http://pythonhosted.org/PyDAQmx/',
